@@ -1,7 +1,6 @@
 const fs = require("fs");
 
 const PUUID = "dE7x4ZwOPBa_45mRFJxlTCXuwOfkvMsh9my9E__CJdtgDtoVHacfr-JH3xG23LDbV9cy-0n08rnvOA"
-// const API_KEY = "RGAPI-793f593e-32cc-4a9e-af78-6b28c2497231"
 const API_KEY = process.env.RIOT_API_KEY
 
 async function generateSvg(rank, wins, losses) {
